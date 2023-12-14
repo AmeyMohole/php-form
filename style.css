@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(228, 222, 234);
+    padding: 34px;
+    margin: auto;
+    
+}
+.container h1,p{
+    text-align: center;
+
+}
+input,textarea{
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px color( rgb(6, 6, 6) green blue);
+    border-radius: 6px;
+}
+form{
+    
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: aliceblue;
+    background-color: purple;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.submitMsg{
+    color: red;
+    font:10px;
+}
