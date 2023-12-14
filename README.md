@@ -14,7 +14,6 @@
         <h1>Welcome to GESCOE Trip form</h1>
         <p>Enter yout details and submit this form to confirm your participation</p>
         <p class="submitMsg">Thank you for Submiting</p>
-        <script src="index.js"></script>
         <form action="index.php" method="post">
             <input type="text" name="name" id="name" placeholder="Enter your name">
             <input type="text" name="age" id="age" placeholder="Enter your age">
